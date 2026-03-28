@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env（勿把密钥提交到远端）
+.env
+.env.*.local
+
+# sqlite 本地库（演示数据；远端各自生成）
+prisma/*.db
+prisma/*.db-journal
+
+# debug / os
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# prisma generate
+node_modules/.prisma/
+
+# test / coverage
+coverage/
+.vitest/
+
+# typescript
+*.tsbuildinfo
